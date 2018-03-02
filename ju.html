@@ -19,8 +19,32 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
+ <!-- Global site tag (gtag.js) - Google AdWords: 973653319 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-973653319"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-973653319');
+</script> 
   
-  
+  <!-- Event snippet for Website Visits conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-973653319/aOZyCJz-rH4Qx4qj0AM',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
 </head>
 <body>
   <section class="menu cid-qKXDjhEmjy" once="menu" id="menu1-e">
