@@ -98,6 +98,9 @@ section {
   text-align: right; }
 
 @media (max-width: 767px) {
+.hideonmobile{
+  display:none;}
+  
   .align-left, .align-center, .align-right, .mbr-section-btn, .mbr-section-title {
     text-align: center; } }
 /*! Font-weight  */
